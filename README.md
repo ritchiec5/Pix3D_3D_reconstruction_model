@@ -22,6 +22,7 @@ python mat_to_vox.py
 # Utility script to convert voxel.mat to view on magicavoxel
 ```
 
+## Model Architecture
 The model consists of three main parts: an encoder, a decoder, and a reconstruction model that combines the encoder and decoder.
 
 The encoder is a series of four 2D convolutional layers, with the input image being passed through each layer in sequence. The output of the encoder is a latent code, which is a compressed representation of the input image.
